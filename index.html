@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah|Lato" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Document</title>
+</head>
+<body>
+  <div class="wrapper">
+    <div class="bg-container">
+        <div class="banner-container container">
+                <div class="title-container">
+                        <h1 id="title">Save<br>the<br>Earth</h1>
+                    </div>
+                    
+                    <div class="banner">
+                    </div>
+                  </div>
+        </div>
+     
+    <div class="form-container">
+      <div class="container">
+        <div class="heading-container">
+            <p id="description">Our Planet Is In Danger </p> 
+            <p>and, We Need You ....</p>
+        </div>
+        
+        <form class="form-control" id="survey-form">
+          <div class="radio-container">
+              <p>
+                  <input type="radio" name="gender" id="male" value="1"><label for="male">Male</label>
+              </p>
+              <p>
+                  <input type="radio" name="gender" id="female" value="2"><label for="female">Female</label>
+              </p>
+          </div>
+        
+          <div class="input-container">
+            <p>
+                <label id="name-label" for="name">Firstname</label>
+                <input type="text" id="name" required placeholder="John">
+            </p>
+            <p>
+                <label for="name2">Lastname</label>
+                <input type="text" id="name2" placeholder="Doe" required>
+            </p>
+            <p>
+                <label id="email-label" for="email">Email</label>
+                <input type="email" id="email" placeholder="you@example.com" required>
+            </p>
+            <p>
+                <label id="number-label" for="number">Age</label>
+                <input type="number" id="number" min="8" max="20" placeholder="23" required>
+            </p>
+          </div>
+          <div class="dropdown-container">
+            <p>Which option best describes your current role?</p>  
+            <select name="" id="dropdown" class="dropdown">
+                <option selected disabled>Select an option</option>
+                <option value="student">Student</option>
+                <option value="job">Full Time Job</option>
+                <option value="freelancer">Freelancer</option>
+                <option value="others">Others</option>
+              </select>
+          </div>
+
+            <div class="checkbox-container">
+              <p>What do you think is the biggest threat to our planet?</p>
+              <div class="checkbox-sub-container">
+                  <p>
+                      <input type="checkbox" name="opinion" id="cc" value="climate_change"><label for="cc">Climate Change</label>
+                  </p>
+                  <p>
+                      <input type="checkbox" name="opinion" id="forest" value="deforestation"><label for="forest">Deforestation</label>
+                  </p>
+                  <p>
+                      <input type="checkbox" name="opinion" id="pol" value="pollution"><label for="pol">Pollution</label>
+                  </p>
+                  <p>
+                      <input type="checkbox" name="opinion" value="others" id="others"><label for="others">Others</label>
+                  </p>
+              </div>
+            </div>
+
+            <div class="textarea-container">
+                <p>Give us your thoughts on how can we save our planet from this turmoil</p>
+                <textarea></textarea>
+              </div>
+         
+            <div class="btn-container">
+                <button class="btn" id="submit">Submit</button>
+            </div>
+     
+        </form>
+      </div>
+    </div>
+  </div>
+  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
+</html>
