@@ -183,6 +183,9 @@ option:disabled  {
   .bg-container .banner-container{
     display: flex;
   }
+  .checkbox-container .checkbox-sub-container{
+    flex-direction: row;
+  }
 }
 @media (min-width:831px){
   .wrapper{
@@ -190,9 +193,6 @@ option:disabled  {
   }
   .bg-container .banner-container{
     display: flex;
-  }
-  .checkbox-container .checkbox-sub-container{
-    flex-direction: row;
   }
 }
 @media (max-width:830px){
